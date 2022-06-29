@@ -8,7 +8,7 @@ Track healthy organs in medical scans to improve cancer treatment.
 
 In this competition we are segmenting organs cells in images. The medical images consist in MRI scans, where **Stomach**, **Large Bowel** & **Small Bowel** might be present. It is a **MultiLabel Segmentation** task as all classes might be present in one image.
 There are 2 notebooks
-* An EDA notebook where the dataset structure and content is explored
+* uwm-gi-tract-segmentation-eda-only.ipynb: An EDA notebook where the dataset structure and content is explored
 * A Training notebook where a TransUNet model is trained on the dataset
 
 ## Methodology 
