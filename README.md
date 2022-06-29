@@ -9,7 +9,7 @@ Track healthy organs in medical scans to improve cancer treatment.
 In this competition we are segmenting organs cells in images. The medical images consist in MRI scans, where **Stomach**, **Large Bowel** & **Small Bowel** might be present. It is a **MultiLabel Segmentation** task as all classes might be present in one image.
 There are 2 notebooks
 * uwm-gi-tract-segmentation-eda-only.ipynb: An EDA notebook where the dataset structure and content is explored
-* A Training notebook where a TransUNet model is trained on the dataset
+* uwm-transunet-2-5d-training-tf.ipynb: A Training notebook where a TransUNet model is trained on the dataset
 
 ## Methodology 
 * In this notebook **2.5D** images are used for Training for **Segmentation** with `tf.data`, `tfrecord` using `Tensorflow`.  
