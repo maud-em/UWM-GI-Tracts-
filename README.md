@@ -1,10 +1,17 @@
+# Kaggle Competition
 # UW-Madison GI Tract Image Segmentation
 
 
 ## Description
 
-Track healthy organs in medical scans to improve cancer treatment.
-# Methodology 
+Track healthy organs in medical scans to improve cancer treatment. 
+
+In this competition we are segmenting organs cells in images. The medical images consist in MRI scans, where **Stomach**, **Large Bowel** & **Small Bowel** might be present. It is a **MultiLabel Segmentation** task as all classes might be present in one image.
+There are 2 notebooks
+* An EDA notebook where the dataset structure and content is explored
+* A Training notebook where a TransUNet model is trained on the dataset
+
+## Methodology 
 * In this notebook **2.5D** images are used for Training for **Segmentation** with `tf.data`, `tfrecord` using `Tensorflow`.  
 * **2.5D Image Training** is training of **3D** image like **2D** Image. 2.5D images can take leverage of the extra depth information like our typical RGB image. 2.5D Images are built from 3 channels with 2 strides 
 * The TransUNet model from **[TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation](https://arxiv.org/pdf/2102.04306.pdf)** is used here (from the transunet library).
