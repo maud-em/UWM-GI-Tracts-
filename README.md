@@ -18,9 +18,17 @@ In these scans, radiation oncologists must manually outline the position of the 
 ## Notebooks overview
 
 In this competition we are segmenting organs cells in images. The medical images consist in MRI scans, where **Stomach**, **Large Bowel** & **Small Bowel** might be present. It is a **MultiLabel Segmentation** task as all classes might be present in one image.
-There are 2 notebooks
+There are 2 main notebooks, the 3 others derive from the second one
 * uwm-gi-tract-segmentation-eda-only.ipynb: An EDA notebook where the dataset structure and content is explored
 * uwm-transunet-2-5d-training-tf.ipynb: A Training notebook where a TransUNet model is trained on the dataset
+
+Notebooks Kaggle:
+* EDA https://www.kaggle.com/code/maudcomboul/uwm-gi-tract-segmentation-eda-only
+* Training with Data Augmentation https://www.kaggle.com/code/maudcomboul/uwm-transunet-2-5d-aug-training-tf
+* Training on Dice Loss https://www.kaggle.com/code/maudcomboul/uwm-transunet-2-5d-training-tf
+* Training on Tversky Loss https://www.kaggle.com/code/maudcomboul/uwm-transunet-2-5d-tversky-training-tf
+* Training on Focal Tversky Loss https://www.kaggle.com/code/maudcomboul/uwm-transunet-2-5d-ftversky-training-tf
+
 
 ## Segmentation Methodology and Model
 * In this notebook **2.5D** images are used for Training for **Segmentation** with `tf.data`, `tfrecord` using `Tensorflow`.  
