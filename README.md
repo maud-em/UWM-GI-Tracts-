@@ -23,6 +23,9 @@ There are 2 main notebooks, the 3 others derive from the second one
 * uwm-transunet-2-5d-training-tf.ipynb: A Training notebook where a TransUNet model is trained on the dataset
 
 Notebooks Kaggle:
+
+**NB** I was unable to change my Kaggle Notebook options to **public** because of the close deadline for the competition. Please see the updated Github notebooks for reference.
+
 * EDA https://www.kaggle.com/code/maudcomboul/uwm-gi-tract-segmentation-eda-only
 * Training with Data Augmentation https://www.kaggle.com/code/maudcomboul/uwm-transunet-2-5d-aug-training-tf
 * Training on Dice Loss https://www.kaggle.com/code/maudcomboul/uwm-transunet-2-5d-training-tf
