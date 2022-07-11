@@ -24,20 +24,17 @@ There are 2 main notebooks, the 3 others derive from the second one
 
 Notebooks Kaggle:
 
-**NB** I was unable to change my Kaggle Notebook options to **public** because of the close deadline for the competition. Please see the updated Github notebooks for reference.
+**NB I was unable to change my Kaggle Notebook options to public because of the close deadline for the competition. Please see the updated Github notebooks for reference.**
 
 * EDA https://www.kaggle.com/code/maudcomboul/uwm-gi-tract-segmentation-eda-only 
 or https://github.com/maud-em/UWM-GI-Tracts-/blob/main/uwm-gi-tract-segmentation-eda-only.ipynb
-* Training with Data Augmentation https://www.kaggle.com/code/maudcomboul/uwm-transunet-2-5d-aug-training-tf
-or https://github.com/maud-em/UWM-GI-Tracts-/blob/main/uwm-transunet-2-5d-aug-training-tf.ipynb
-* Training on Dice Loss https://www.kaggle.com/code/maudcomboul/uwm-transunet-2-5d-training-tf
-or https://github.com/maud-em/UWM-GI-Tracts-/blob/main/uwm-transunet-2-5d-training-tf.ipynb
-* Training on Tversky Loss https://www.kaggle.com/code/maudcomboul/uwm-transunet-2-5d-tversky-training-tf
-or https://github.com/maud-em/UWM-GI-Tracts-/blob/main/uwm-transunet-2-5d-tversky-training-tf.ipynb
-* Training on Focal Tversky Loss https://www.kaggle.com/code/maudcomboul/uwm-transunet-2-5d-ftversky-training-tf
-or https://github.com/maud-em/UWM-GI-Tracts-/blob/main/uwm-transunet-2-5d-ftversky-training-tf.ipynb
-
-
+* Training U-Net (with Data Augmentation):
+  * [github](https://github.com/maud-em/UWM-GI-Tracts-/blob/main/uwm-unet-2-5d-aug-training-tf.ipynb)
+  * [kaggle](https://www.kaggle.com/code/maudcomboul/uwm-transunet-2-5d-aug-training-tf) 
+* Training TransUNet:
+  * Dice Loss with Data Augmentation:  
+  * Dice Loss no DA [github](https://github.com/maud-em/UWM-GI-Tracts-/blob/main/uwm-transunet-2-5d-training-tf.ipynb) or [(kaggle)](https://www.kaggle.com/code/maudcomboul/uwm-transunet-2-5d-training-tf)
+  * Tversky Loss no DA [github](https://github.com/maud-em/UWM-GI-Tracts-/blob/main/uwm-transunet-2-5d-tversky-training-tf.ipynb) or [kaggle](https://www.kaggle.com/code/maudcomboul/uwm-transunet-2-5d-tversky-training-tf)
 
 ## Segmentation Methodology and Model
 * In this notebook **2.5D** images are used for Training for **Segmentation** with `tf.data`, `tfrecord` using `Tensorflow`.  
