@@ -32,8 +32,8 @@ or https://github.com/maud-em/UWM-GI-Tracts-/blob/main/uwm-gi-tract-segmentation
   * [github](https://github.com/maud-em/UWM-GI-Tracts-/blob/main/uwm-unet-2-5d-aug-training-tf.ipynb)
   * [kaggle](https://www.kaggle.com/code/maudcomboul/uwm-transunet-2-5d-aug-training-tf) 
 * Training TransUNet:
-  * Dice Loss with Data Augmentation:  
-  * Dice Loss no DA [github](https://github.com/maud-em/UWM-GI-Tracts-/blob/main/uwm-transunet-2-5d-training-tf.ipynb) or [(kaggle)](https://www.kaggle.com/code/maudcomboul/uwm-transunet-2-5d-training-tf)
+  * Dice Loss with Data Augmentation: github or https://www.kaggle.com/code/maudcomboul/uwm-transunet-2-5d-aug-training-tf 
+  * Dice Loss no DA [github](https://github.com/maud-em/UWM-GI-Tracts-/blob/main/uwm-transunet-2-5d-training-tf.ipynb) or [kaggle](https://www.kaggle.com/code/maudcomboul/uwm-transunet-2-5d-training-tf)
   * Tversky Loss no DA [github](https://github.com/maud-em/UWM-GI-Tracts-/blob/main/uwm-transunet-2-5d-tversky-training-tf.ipynb) or [kaggle](https://www.kaggle.com/code/maudcomboul/uwm-transunet-2-5d-tversky-training-tf)
 
 ## Segmentation Methodology and Model
